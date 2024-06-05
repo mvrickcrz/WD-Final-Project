@@ -1,0 +1,91 @@
+  *{      
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    }
+  
+    #wrapper-div {
+    margin: auto;
+    background-color: rgb(249,245,245);
+    }
+
+  header {
+    background-color: #e4e2dd;
+    padding: 90px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+  }
+
+  #logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+
+  nav{
+    text-align:center;
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  aside {
+    float: left;
+    width: 20%;
+    height: 400px;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  aside ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 50px;
+  }
+  
+  aside a:link, a:visited{
+    background-color: #374a67;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  article {
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 400px;
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer{
+    background-color: #0E1116;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
